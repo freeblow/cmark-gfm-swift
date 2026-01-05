@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Source/**/*'
   s.public_header_files = 'Source/*.h'
   s.exclude_files = "Source/Info.plist"
-  s.preserve_path = 'cmark-gfm-swift/Source/cmark_gfm/module.modulemap'
+  s.preserve_path = 'Source/cmark_gfm/module.modulemap'
   s.pod_target_xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(SRCROOT)/cmark-gfm-swift/Source/cmark_gfm/**' }
 
 end
